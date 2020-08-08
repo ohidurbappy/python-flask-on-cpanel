@@ -13,7 +13,7 @@
 ![python flask app on shard cpanel hosting hosting step 2](images/create-python-app-cpanel-02.png)
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/260eDcsUheE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Video tutorial on Python flask on cpanel](https://img.youtube.com/vi/260eDcsUheE/0.jpg)](https://www.youtube.com/watch?v=260eDcsUheE)
 
 **Step 3:**
 
