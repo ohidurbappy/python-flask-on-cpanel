@@ -1,18 +1,28 @@
-**python-flask-on-cpanel**
+## [Tutorial]How to deploy Python Flask App on shared cpanel hosting
 
 **Step 1:**
 
 - Click the "Setup Python App" icon.
 
-:::image type="content" source="images/create-python-app-cpanel-01.png" alt-text="python flask app on shard cpanel hosting hosting step 1":::
+![python flask app on shard cpanel hosting hosting step 1](images/create-python-app-cpanel-01.png)
 
 **Step 2:**
 
 - Press the "Create Application" button.
 
-:::image type="content" source="images/create-python-app-cpanel-02.png" alt-text="python flask app on shard cpanel hosting hosting step 2":::
+![python flask app on shard cpanel hosting hosting step 2](images/create-python-app-cpanel-02.png)
 
 **Step 3:**
+
+Options:
+    a. Python version - pick the latest Python 3 if you are unsure
+    b. Application root - Path relative to your home directory. You can provide full path like /home/nanodano/mypyapp but it will replace it with mypyapp
+    c. Application URL - Choose the domain name and URL to use. Leave blank or enter / to use the root of the domain. Note if you are using the default domain that points to public_html/ and you have an index.html file, that index file will take precedence for the root / URL.
+    d. Application startup file - e.g. app.py, the file that contains the WSGI application (Examples below). It will create a default file with some boilerplate to demonstrate it works so you do not have to provide a file before-hand.
+    e. Application Entry point - The name of the function/object that WSGI should load. e.g. app. Examples below, but it will automatically generate an example using your value.
+    f. Passenger log file - Path to store log entries
+    g. Environment variables - Any environment variables the app needs
+
 
     - Choose the python version you wish to use.
     - Enter the directory that the python application should be installed to. This is path is relative to the root directory of the web hotel and will create the specified directory if it does not exist.
@@ -25,7 +35,7 @@
     - When all fields are filled in as desired, press the "Create" button to set up the application.
 
 
-:::image type="content" source="images/create-python-app-cpanel-03.png" alt-text="python flask app on shard cpanel hosting hosting step 3":::
+![python flask app on shard cpanel hosting hosting step 2](images/create-python-app-cpanel-03.png)
 
 
 
@@ -40,7 +50,8 @@ You can now make changes and manage the python application.
     - Here you can run python script located on the webhosting. This is useful if you do not have access to the terminal and want to run python script to do setup, for example to create a super user in Django. The script is run in the virtual environment of the application.
     - These buttons allow you to save or discard changes as well as delete the entire application.
 
-:::image type="content" source="images/create-python-app-cpanel-04.png" alt-text="python flask app on shard cpanel hosting hosting step 4":::
+![python flask app on shard cpanel hosting hosting step 4](images/create-python-app-cpanel-04.png)
+
 
 
 Finished
